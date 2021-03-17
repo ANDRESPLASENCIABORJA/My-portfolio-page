@@ -1,0 +1,40 @@
+/* We use the reset.css style sheet to eliminate the parameters of design that are by default in a webpage*/
+* {
+    margin: 0; /* With this margin value we are defining that there is not going to be a separation of the borders of the website to the top buttom, left and right*/
+    padding: 0; /* We reset the padding to 0 so there are not space between elements in the page yet*/
+    box-sizing: border-box; /* We set a border box element so there is a border sorounding the content and padding of the box elements that are going to be in the page*/
+  }
+/* We stablished the html value height to 100 because we need that the content of the page start at the top of it*/
+  html { 
+    height: 100%; 
+  }
+/*The body reset parameters*/
+  body {
+    min-height: 100%; /*The minimum height of the body will be 100% so it will be the same of html*/
+    line-height: 1; /*The line height will define the space between the paragraphs*/
+    font-family: sans-serif; /*All the text will have the font sans-serif*/
+  }
+/*This are the headers reset parameters*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 100%; /*The only thing that we need to stablish are the headers size for them to be the same and not smaller*/
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+/*We do not want to have lists with style already*/
+ul {
+    list-style: none;
+  }

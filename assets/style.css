@@ -1,0 +1,125 @@
+/*Value stablished for all the webpage boxes sizes*/
+* {
+    box-sizing: border-box;
+}
+
+/*The header will be displayed in a flex box, we justify the content to make an space between the header and the navigation list*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray; 
+    padding-bottom: 10px; 
+}
+/*The header-list class is also displayed in a flex box so the elements of it can be displayed horizontally*/
+.nav-list {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 250px;
+}
+
+/*I used this parameters for the list inside the ul of the nav to give the elements space with a margin and to make them bigger with font-size*/
+.nav-list li {
+    margin-left: 25px;
+    font-size: 20px;
+}
+/*I displayed the figure section in a flexbox so the element h2 could be inside it also I stablished the values for the background image inside figure*/
+figure {
+    display: flex;
+    padding-top: 100px;
+    background-color: rgb(15, 13, 13);
+    background-image: url(https://i.pinimg.com/originals/df/bd/e6/dfbde6c2f1a8f5d5b5a47c81fbecd1eb.jpg);
+    background-position: center;
+}
+/*Design elements for h1 and h2*/
+h2, h1{
+    margin-bottom: 20px;
+    background-color: rgb(191,253, 247) ;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: rgb(60, 133, 175);
+}
+
+/*All the document header have the same style*/
+h3, h4, h5 {
+    font-size: 25px; ;
+    color: black;
+    font-family: 'Times New Roman';
+    color: rgb(60, 133, 175)
+}
+
+/*All the paragraphs of the document have the same style except for those in My Work section*/
+p {
+    padding-left: 50px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium';  
+    font-size: large; 
+    color:  rgb(60, 133, 175);
+}
+/*Style for the flexbox Horiseon proyect*/
+.horiseon {
+    display: flex;
+    background-color: blue;
+    margin: 50px 20px;
+    padding: 25px;
+}
+/*Style for the paragraph of the class .horiseon*/
+.horiseon p {
+    color: cornsilk;
+    padding-top: 100px;
+}
+/*Style for the flexbox Trading proyect*/
+.trading {
+    display: flex;
+    background-color: blue;
+    margin: 50px 20px;
+    padding: 25px;
+}
+/*Style for the paragraph of the class .trading*/
+.trading p {
+    color: cornsilk;
+    padding-top: 100px;
+}
+/*Style for the flexbox Prework*/
+.prework {
+    display: flex;
+    background-color: blue;
+    margin: 50px 20px;
+    padding: 25px;
+}
+/*Style for the paragraph of the class .prework*/
+.prework p {
+    color: cornsilk;
+    padding-top: 100px;
+}
+/*Parameters for the link image located in the flexbox Horiseon proyect*/ 
+.image-one {
+    width: 300px;
+    border: 5px solid rgb(191, 253, 247);
+    margin-right: 10px;
+    float: right;
+  }
+
+/*Parameters for the link image located in the flexbox Trading proyect*/
+.image-two {
+   width: 374px;
+   border: 5px solid rgb(191, 253, 247);
+   margin-right: 10px;
+}
+/*Parameters for the link image located in the flexbox Prework*/
+.image-three {
+    width: 300px;
+    border: 5px solid rgb(191, 253, 247);
+    margin-right: 10px;
+}
+/*Style for the flexbox of the contact information located in the footer*/
+.footer-contact {
+  display: flex;  
+}
+
+/*Style for the paragraph of the footer*/
+.footer-contact p {
+    margin-left: 100px;
+}
+
