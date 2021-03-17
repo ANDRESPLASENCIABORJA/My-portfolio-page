@@ -15,22 +15,11 @@
     font-family: sans-serif; /*All the text will have the font sans-serif*/
   }
 /*This are the headers reset parameters*/
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-size: 100%; /*The only thing that we need to stablish are the headers size for them to be the same and not smaller*/
 }
 
-input,
-select,
-option,
-optgroup,
-textarea,
-button,
-pre,
-code {
+input, select, option, optgroup, textarea, button, pre,code {
   font-size: 100%;
   font-family: inherit;
 }
